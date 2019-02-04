@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc -p ./src",
     "build:watch": "tsc -w -p ./src",
+    "prepare": "npm run build",
     "test": "lab -v --sourcemaps"
   },
   "repository": {
