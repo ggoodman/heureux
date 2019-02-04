@@ -1,0 +1,51 @@
+{
+  "name": "heureux",
+  "version": "0.0.0",
+  "description": "Opinionated wrapper around Hapi.js for building strongly-typed API services",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p ./src",
+    "build:watch": "tsc -w -p ./src",
+    "test": "lab -v --sourcemaps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggoodman/heureux.git"
+  },
+  "keywords": [
+    "hapi",
+    "typescript",
+    "io-ts"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "Geoffrey Goodman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ggoodman/heureux/issues"
+  },
+  "homepage": "https://github.com/ggoodman/heureux#readme",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "hapi": "^18.1.0",
+    "io-ts": "^1.8.0",
+    "opentracing": "^0.14.3"
+  },
+  "devDependencies": {
+    "@types/boom": "^7.2.1",
+    "@types/code": "^4.0.5",
+    "@types/hapi": "^18.0.0",
+    "@types/lab": "^11.1.0",
+    "code": "^5.2.4",
+    "lab": "^18.0.1",
+    "types": "^0.1.1",
+    "typescript": "^3.3.1"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "tabWidth": 2
+  }
+}
