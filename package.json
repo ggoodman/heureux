@@ -1,6 +1,6 @@
 {
   "name": "heureux",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Opinionated wrapper around Hapi.js for building strongly-typed API services",
   "main": "dist/index.js",
   "scripts": {
